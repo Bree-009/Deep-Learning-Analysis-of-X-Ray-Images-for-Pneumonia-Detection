@@ -2,6 +2,10 @@
 
 
 
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/banner.png)
+
+
+
 ## BUSINESS UNDERSTANDING
 
 The rapid advancement of Artificial Intelligence (AI) has brought significant benefits across various industries, including healthcare. Pneumonia, a critical lung infection, poses a serious threat, particularly to vulnerable demographics like the elderly and children. Traditionally, diagnosing pneumonia requires time-consuming physical examinations and lab tests, often necessitating multiple doctor visits.
@@ -68,42 +72,32 @@ It will guide in processes like: data preprocessing, model selection, and perfor
 The EDA performed on the dataset includes visualizing samples of normal and pneumonia chest X-ray images, and plotting the class distributions for the training, test, and validation sets.
 
 
-#### Displaying sample images from the dataset
+### Visualizing the distribution of classes in each category of data.
 
-The samples above show suggest that distinguishing between chest X-ray images without pneumonia and those with pneumonia is challenging due to their visual resemblance.
+#### Visualizing the distribution of classes in the Train data
 
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/training%20distribution.png)
 
-#### Mapping and class labels associated with the training data
-
-The class labels were mapped to their corresponding numerical indices.
-
-'NORMAL' corresponds to class index 0, while 'PNEUMONIA' corresponds to class index 1.
-
-This is vital for training and evaluating deep learning models.
-
-
-#### Displaying sample images from the dataset, with the corresponding labels serving as titles for each subplot.
-
-
-The labels changed to 0 for a normal chest X-Ray and 1 for a chest X-Ray with pneumonia.
-
-
-#### Visualizing the distribution of classes in each category of data.
-
-
-#####  a) Visualizing the distribution of classes in the Train data
 Approximately 75% of the training data consists of normal chest X-rays while about 25% contains X-rays with pneumonia.
 
-##### b) Visualizing the distribution of classes in the Test Data
+
+#### Visualizing the distribution of classes in the Test Data
+
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/test%20distribution.png)
 
 Approximately 63% of the Test Data consists of normal chest X-rays while almost 38% contains X-rays with pneumonia.
 
-##### c) Visualizing the distribution of classes in the Validation Data
+
+
+#### Visualizing the distribution of classes in the Validation Data
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/validation%20distribution.png)
 
 The distribution between the two classes (Pneumonia and Normal) is approximately even.
 
 
 #### Analyzing the distribution of image sizes (width and height)
+
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/scatterplot%20of%20image%20sizes.png)
 
 The visualization above indicates that X-ray images of normal lungs are slightly larger in dimensions as compared to those of pneumonia-infected lungs.
 
@@ -176,6 +170,14 @@ The performance metrics indicate that the best performing model (Model 3) has th
 5. Test Precision: 0.708- The test precision of 0.7080 means that when the model predicts a sample as "Pneumonia", it is correct 70.80% of the time. This suggests the model has a relatively high precision in identifying positive (pneumonia) cases.
 
 6. The results show that Model 3 outperforms Model 2 in all three metrics, with a lower test loss, higher test accuracy, and higher test precision.
+
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/test%20loss%20and%20test%20accuracy.png)
+
+
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/model%20accuracy%20plots.png)
+
+
+![Alternative text](https://github.com/Bree-009/Deep-Learning-Analysis-of-X-Ray-Images-for-Pneumonia-Detection/blob/main/images/comparison%20of%20the%202%20models%20accuracy.png)
 
 
 
